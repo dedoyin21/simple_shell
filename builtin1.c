@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _myhistory -function displays the history list, preceded
- *              with line numbers, starting at 0.
- * @info: Structure containing potential arguments. Used to maintain
+ * _myhistory -function to displays the history list, preceded
+ *              with line numbers, starting with 0.
+ * @info: Struct containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
  */
@@ -16,10 +16,10 @@ int _myhistory(info_t *info)
 
 /**
  * unset_alia -function  sets alia to string
- * @info: parameter struct
+ * @info: parameter structure
  * @str: the string argument alia
  *
- * Return: Always 0 on success, 1 on error
+ * Return: Always 0 on success, 1 on null
  */
 
 int unset_alia(info_t *info, char *str)

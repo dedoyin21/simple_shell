@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _myenv -function prints the current environment
- * @info: Structure containing potential arguments. Used to maintain
+ * _myenv -function to print the current environment
+ * @info: Structs containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
  */
